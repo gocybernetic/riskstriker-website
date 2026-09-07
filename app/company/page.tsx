@@ -1,0 +1,4 @@
+export const dynamic = 'force-static';
+import { Intro } from '../site';
+export const metadata={title:'Company'};
+export default function Page(){return <><Intro label="CYBERNETIC LIMITED" title="Building a clearer basis for agent assurance."><p>Cybernetic Limited is the company behind RiskStriker, an operational assurance and resilience platform for autonomous AI agents.</p></Intro><section className="section"><h2>RiskStriker — a Cybernetic product.</h2><p className="wide">Our product direction centres on testing the complete agentic system, measuring actual consequences and verifying controls. The aim is bounded evidence that helps organisations make their own risk decisions.</p><p className="wide">The initial focus is consequential public-sector agents, with a proposed R&D and design-partner approach.</p><a className="text-link" href="/riskstriker/">Understand RiskStriker →</a></section></>}

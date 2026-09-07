@@ -1,0 +1,4 @@
+export const dynamic = 'force-static';
+import { Intro } from '../site';
+export const metadata={title:'Evaluation preparation'};
+export default function Page(){return <><Intro label="EVALUATION PREPARATION" title="Start with a specific agent and use case."><p>A useful assurance discussion begins with the actions an agent can take, the controls around it and the consequences your organisation needs to avoid.</p></Intro><section className="section"><h2>Prepare your evaluation context.</h2><ol className="reading-list"><li>Describe the agent’s purpose and operational owner.</li><li>List the systems, data and actions within its reach.</li><li>Identify the risk tolerance and red lines that matter.</li><li>Describe the authorised test environment and available observations.</li></ol><a className="text-link" href="/riskstriker/government/">Read the evaluator overview →</a></section></>}

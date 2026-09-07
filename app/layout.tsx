@@ -1,0 +1,5 @@
+import type { Metadata } from 'next';
+import './globals.css';
+import { Mark } from './site';
+export const metadata: Metadata = { icons: { icon: '/favicon.svg' }, title: {default:'RiskStriker — Operational assurance for AI agents',template:'%s | RiskStriker'}, description:'Cybernetic Limited is developing RiskStriker: operational assurance for autonomous AI agents, with consequence measurement, control verification and bounded evidence.' };
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en-GB"><body><a className="skip" href="#main">Skip to content</a><header><a href="/" className="brand"><Mark/>RiskStriker</a><nav aria-label="Main navigation"><a href="/riskstriker/">Approach</a><a href="/riskstriker/government/">For evaluators</a><a href="/company/">Company</a></nav></header><main id="main">{children}</main><footer><div className="footer-brand">RiskStriker<span>RiskStriker — a Cybernetic product</span></div><div><a href="/evidence/">Evidence & limitations</a><a href="/security/">Security approach</a><a href="/contact/">Prepare an evaluation</a></div><p>© 2026 Cybernetic Limited</p></footer></body></html>}
