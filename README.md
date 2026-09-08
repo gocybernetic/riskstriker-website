@@ -13,3 +13,5 @@ Product claims remain bounded; synthetic scenarios are illustrations, not measur
 ## Production hosting policy
 
 GitHub Pages is the production host, as explicitly directed by the user on 8 September 2026. Keep production on GitHub Pages for all future releases. Sites is only for private previews; do not make a Sites deployment public or use it as the production destination. Publish production changes through the approved GitHub workflow to `main:/docs`.
+
+Canonical company domain: `cybernetic.london`. Product domain: `riskstriker.com`. Domain connection is tracked in content-calendar; these names do not imply that DNS or HTTPS provisioning is complete.
