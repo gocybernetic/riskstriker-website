@@ -1,0 +1,1 @@
+export function Mark(){return <svg viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path fill="currentColor" d="M4 6h14v6H10v16h8v6H4V6zm18 0h14v28H22v-6h8V12h-8V6z"/><path stroke="currentColor" strokeWidth="3" d="M16 23l8-6"/></svg>}
